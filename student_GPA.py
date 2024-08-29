@@ -6,16 +6,18 @@ Name: Jacob McDaniels
 
 File name: studentGPA.py
 
-Description: This python app prompts for student information 
-to determine whether or not the student is on Honor Roll or
-the Deans List and acts a an open search until ZZZ is entered 
-as the students last name.
+GitHub Repository: https://github.com/Jmcdaniels7/Case-Study-if..elif..else.git
+
+Description: This python app prompts for student information to determine whether or not the
+student is on Honor Roll or the Deans List and acts a an open search until ZZZ is entered as 
+the students last name.
 """
 
 
 student_last = input("What is the students last name?")
 
 while student_last != "ZZZ":
+
     student_first = input("What is the students first name?")
     student_gpa = float(input("What is the students GPA?"))
 
