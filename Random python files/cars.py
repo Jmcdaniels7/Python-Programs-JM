@@ -24,7 +24,7 @@ year = input("What year is the vehicle?")
 make = input("What is the make of the vehicle?")
 model = input("What is the model of the vehicle?")
 doors = input("Is the vehicle a 2 or 4 door ?")
-roof = input("Does the car have a sunroof?")
+roof = input("Does the car have a sunroof or solidroof?")
 
 v = Automobile(carType, year, make, model, doors, roof)
 
